@@ -1,1 +1,179 @@
-body{color: brown;}
+.header-container{
+    background-image: url("../image/image.man.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+    height: 570px;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.menu-container{
+    display: flex;
+    color: white;
+}
+ul a{
+    text-decoration: none;
+    color:white;
+}
+ul>li{
+    list-style: none;
+    gap: 20px;
+    color: white;
+}
+.nav-menu{
+    display: flex;
+    gap: 20px;
+    position: static;
+   
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    color: white;
+    
+    
+}
+.login{
+    display: flex; 
+    text-align: center; 
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.div-container{
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+    margin-top: 60px;
+}
+.hero-container{
+    justify-content: space-around;
+}
+.btn{
+    text-align: center;
+}
+.mind-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+ 
+    margin-bottom: 100px;
+}
+.industry-section{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+.logo-section{
+    gap: 25px;
+    justify-content: center;
+    display: flex;
+}
+.subscribe-section{
+margin-top: 50px; 
+display: flex; 
+justify-content: space-evenly;  
+gap: 200px;
+border: 1px solid black;
+margin-right: 260px;
+height: 70px;
+background: linear-gradient(blue,red);
+margin-left:270px;
+
+
+}
+.subscribe{
+    display: flex;
+    padding: 10px;
+}
+.placeholder{
+    margin-top: 14px;
+    margin-left: 60px;
+}
+.pricing-section{
+    margin-top: 100px;
+    line-height: 30px;
+    
+}
+.update{
+    display: flex;
+}
+.free{
+    text-align: center;
+    border: 1px solid black;
+    width: 30%;
+    margin-top: 50px;
+}
+.standard{
+    text-align: center;
+    border: 1px solid black;
+    width: 30%;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+}
+.premium{
+    text-align: center;
+    border: 1px solid black;
+    width: 30%;
+    margin-top: 50px;
+}
+.pricing-section{
+    display: flex;
+    gap: 30px;
+}
+.brance{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-image: url(../image/background.png);
+    height: 600px;
+    color: white;
+    width: 1380px;
+    
+}
+.img{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.form{
+    width:300px;
+    padding: 10px;
+    height: 525px;
+}
+.appoinment{
+    border: 1px solid black;
+    display: flex;
+    width:800px;
+    margin-left: 300px;
+        
+}
+.footer{
+    margin-top: 50px;
+}
+@media screen and (max-width:576px) {
+    ul{
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+  }
